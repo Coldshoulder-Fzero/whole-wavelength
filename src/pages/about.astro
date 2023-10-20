@@ -1,9 +1,20 @@
-<a href="/">Home</a>
+---
+const pageTitle = "About me"
+---
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <title>{pageTitle}</title>
+    </head>
+    <body>
+        <a href="/">Home</a>
 <a href="/about"> About</a>
 <a href="/blog"> Blog</a>
 <a href="/contact"> Contact</a>
-<body>
-    <h1>My Portfolio Site</h1>
-    <h1>About Me</h1>
-    <p>This site will update as I complete more of the tutorial, so keep checking</p>
-</body>
+<h1>My Portfolio Site</h1>
+<h1>{pageTitle}</h1>
+<p>This site will update as I complete more of the tutorial, so keep checking</p>
+    </body>
+</html>
